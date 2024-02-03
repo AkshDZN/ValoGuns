@@ -1,0 +1,82 @@
+body {
+    background-color: #010101;
+}
+.subtitle {
+    color: white;
+    font-family: SPACER R;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.title {
+    color: #FD4556;
+    font-family: ASIX-FOUNDER;
+    font-size: 32px;
+}
+
+.titlebx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22px;
+    
+}
+
+.heading1 {
+    color: #FD4556;
+    font-family: SPACER R;
+    font-size: 24px;
+    margin-bottom: -5px;
+}
+
+.divider {
+    height: 1px;
+    width: 151px;
+}
+
+.headingbx {
+    display: flex;
+    flex-direction: column;
+}
+
+.infotitle {
+    color: white;
+    font-family: Geist Variable;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.colon {
+    height: auto;
+    width: 7px;
+}
+
+.info {
+    color: white;
+    font-family: Geist Variable;
+    font-size: 10px;
+}
+
+.infobx {
+    display: flex;
+    gap: 5px;
+}
+
+.infolist {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.infocard {
+    margin-left: 63px;
+    margin-top: 40px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.c1 {
+    width: fit-content;
+}
+
