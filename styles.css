@@ -70,14 +70,15 @@ body {
 }
 
 .infocard {
-    margin-left: 63px;
-    margin-top: 40px;
     width: fit-content;
     height: fit-content;
 }
 
-.c1 {
+.totalinfo {
+    display: flex;
+    flex-direction: column;
     width: fit-content;
+    height: fit-content;
 }
 
 .damage {
@@ -122,6 +123,10 @@ body {
 }
 
 .damagebx {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
+    align-content: flex-end;
+    
+    
 }
+
