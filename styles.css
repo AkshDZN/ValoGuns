@@ -113,7 +113,7 @@ body {
     border-style: solid;
     border-color: rgb(255, 255, 255);
     border-width: 2px;
-    width: 162px;
+    width: 161px;
     height: 97px;
     display: flex;
     flex-direction: column;
@@ -125,8 +125,20 @@ body {
 .damagebx {
     display: flex;
     flex-direction: column;
-    align-content: flex-end;
-    
-    
+}
+
+.gun {
+    height: auto;
+    width: 374px;
+}
+
+.midbx {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-left: 64px;
+    margin-right: 64px;
 }
 
