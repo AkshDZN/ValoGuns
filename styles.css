@@ -1,6 +1,54 @@
 body {
     background-color: #010101;
 }
+
+/* main */
+.logo {
+    width: 144px;
+    height: 55px;
+    margin-top: 54px;
+    margin-left: 50%;
+    translate: -50%;
+}
+
+.heading1index {
+    color: white;
+    font-family: SPACER R;
+    font-size: 24px;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.gunselect {
+    width: 165px;
+    height: 97px;
+
+    transition: all ease-in-out 500ms;
+
+}
+
+.gunselect:hover {
+    translate: 0px -20px;
+}
+
+
+.gunrow {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.gunselectbx {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    margin-top: 69px;
+}
+
+
+
+/* Guns */
 .subtitle {
     color: white;
     font-family: SPACER R;
